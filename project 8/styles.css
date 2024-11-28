@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container
+{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    gap: 50px;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right-color: gray;
+    border-radius: 3px;
+    min-height: 100%;
+    text-align: center;
+
+}
+.bar h1{
+    font-size: 20px;
+
+}
+.bar a{
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps the original color */
+}
+.bar .intro {
+    display: inline;
+    padding: 5px 5px;
+    padding-bottom:10px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid black;
+
+
+}
+
+
+
+.container{
+    max-width: 1200px;
+    min-height: 100vh;
+    margin:0 auto ;
+
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 880px;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    text-align: justify;
+
+}
+.introduction ul{
+    margin-left: 50px;
+}
+

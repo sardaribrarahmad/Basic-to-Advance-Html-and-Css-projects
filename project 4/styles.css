@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.hero{
+    background-image: url(./unsplash_pHPzdEHN6Os.png);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: 1440px 769px;
+}
+
+.top_section {
+    max-width: 900px;
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 80px;
+    line-height: 40px;
+
+}
+.box{
+
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 36px;
+}
+.frame{
+ 
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 40px;
+}
+.web{
+    color: #722300;
+    font-size: 20px;
+    box-shadow: 100px,3px,4px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+.web img{
+    background-size: cover;
+    max-width:fit-content;
+}
+
+.mobile{
+    color: #722300;
+    font-size: 20px;
+    box-shadow: 100px,3px,4px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+.ui{
+    color: #722300;
+    font-size: 20px;
+    box-shadow: 100px,3px,4px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+.contanier{
+    display: flex;
+}
+.contact{
+    padding: 20px ;
+    max-width: 50%;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #515603;
+    padding-bottom: 30px;
+
+}
+.con h1{
+    padding-left: 50px;
+    font-size: 40px;
+}
+.con p{
+    
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+}
+
+.About{
+    padding: 20px ;
+    max-width: 50%;
+    color: antiquewhite;
+    font-size: 10px;
+    background-color: #722300;
+    padding-bottom: 30px;
+
+}
+.abt h1{
+    padding-left: 50px;
+    font-size: 40px;
+
+}
+.abt p{
+    text-align: justify;
+    padding-left: 55px;
+    padding-right: 30px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 40px;
+}

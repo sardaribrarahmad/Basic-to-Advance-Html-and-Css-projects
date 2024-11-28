@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.contanier{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.apply_form{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 4px 3px 5px rgb(1, 1,1);
+    border-radius: 10px;
+
+}
+.small {
+    font-size: 20px;
+}
+
+.from_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px ,2fr));
+    gap: 20px;
+}
+
+.from_control{
+    display: flex;
+    flex-direction: column;
+
+}
+.from_control label{ 
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input , select , textarea {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px ;
+
+}
+input:focus{
+    outline-color: brown;
+
+}
+
+.button_container{
+     display: flex;
+     justify-content: end ; 
+     margin-top: 20px;
+
+}
+button{
+    border: transparent solid;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    transition: 0.3s ease-in;
+}
+button:hover{
+
+    cursor: pointer;
+    background-color: grey;
+    color: black;
+    transition: 0.3s ease-out;
+}
+.address_text{
+    grid-column: 1 / span 2;
+}
+.address_text textarea{
+    width: 100%;
+}
+ @media (max-width:480px) {
+    .address_text {
+        grid-column: 1 / span 1 ;
+    }
+}
